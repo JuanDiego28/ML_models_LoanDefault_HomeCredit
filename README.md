@@ -1,6 +1,8 @@
 # Sprint project 02
 > Home Credit Default Risk
 
+#testing changes 
+
 ## The Business problem
 
 This is a binary Classification task: we want to predict whether the person applying for a home credit will be able to repay their debt or not. Our model will have to predict a 1 indicating the client will have payment difficulties: he/she will have late payment of more than X days on at least one of the first Y installments of the loan in our sample, 0 in all other cases.
