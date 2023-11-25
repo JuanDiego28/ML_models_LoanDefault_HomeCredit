@@ -68,9 +68,7 @@ def get_feature_target(
             Test target
     """
     # X_train, y_train, X_test, y_test = None, None, None, None
-
-    # testing some changes on the branch
-    
+  
     # Assign to X_train all the columns from app_train except "TARGET"
     X_train = app_train.drop(columns = 'TARGET')
     # Assign to y_train the "TARGET" column
