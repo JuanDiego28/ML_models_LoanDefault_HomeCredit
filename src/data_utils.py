@@ -69,7 +69,7 @@ def get_feature_target(
     """
     # X_train, y_train, X_test, y_test = None, None, None, None
 
-    # TODO
+    # testing some changes on the branch
     
     # Assign to X_train all the columns from app_train except "TARGET"
     X_train = app_train.drop(columns = 'TARGET')
