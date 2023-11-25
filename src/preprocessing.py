@@ -44,8 +44,8 @@ def preprocess_data(
     train_df = np.concatenate((train_df,bin_encoder.transform(working_train_df[binary_columns])),axis = 1)
     val_df = np.concatenate((val_df,bin_encoder.transform(working_val_df[binary_columns])),axis = 1)
     test_df = np.concatenate((test_df, bin_encoder.transform(working_test_df[binary_columns])),axis = 1)
+    
     # onehot encoder
-
     oh_encoder = OneHotEncoder(sparse_output=False,handle_unknown='ignore')
     oh_encoder.fit(working_train_df[multicat_columns])
 
